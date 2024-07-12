@@ -24,5 +24,5 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 
 # NOTES
 1. You have to add a suitable ```.env``` file in order for the project to work.
-2. All main configurations are sored in the <b>settings.ts</b> file
+2. All main configurations are stored in the <b>settings.ts</b> file
 3. If you face any problems, just create a pull request.
