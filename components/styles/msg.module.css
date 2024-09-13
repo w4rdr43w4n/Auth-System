@@ -1,0 +1,36 @@
+.msg{
+  padding: 1em;
+  margin: 1em 0;
+  border-radius: 5px;
+  display: inline-block;
+  min-width: 200px;
+  position: fixed;
+  top: 3em;
+  right: 1em;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  z-index: 1000;
+  animation: fadeInOut 4s ease-in-out;
+}
+.msg.success {
+  background-color: #d4edda;
+  color: #155724;
+  border: 1px solid #c3e6cb;
+}
+
+
+.msg.error {
+  background-color: #f8d7da;
+  color: #c11022;
+  border: 1px solid #ffa4ae;  
+}
+
+.msg.info {
+  background-color: #d1ecf1;
+  color: #0c5460;
+  border: 1px solid #bee5eb;
+}
+
+@keyframes fadeInOut {
+  0%, 100% { opacity: 0; }
+  10%, 90% { opacity: 1; }
+}

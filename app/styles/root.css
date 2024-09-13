@@ -1,0 +1,33 @@
+@font-face {
+  font-family: roboto;
+  src: url("../fonts/Roboto/roboto.ttf");
+}
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing:border-box;
+  font-family: roboto;
+}
+:root{
+  width:100%;
+  height: 100vh;
+  --main-dark-bg:#1b1b1b;
+}
+html{
+  width:100%;
+  height: 100vh;
+}
+body {
+  background-color: var(--main-dark-bg);
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+main{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
